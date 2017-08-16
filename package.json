@@ -1,0 +1,16 @@
+{
+  "name": "nuget-bump",
+  "version": "1.0.0",
+  "description": "Increment NuGet package versions",
+  "main": "index.js",
+  "author": "Alex Ashley",
+  "license": "MIT",
+  "bin": {
+    "script": "./index.js"
+  },
+  "dependencies": {
+    "semver": "^5.4.1",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^9.0.3"
+  }
+}
