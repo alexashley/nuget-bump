@@ -17,4 +17,6 @@ const validateArgs = (bump = '', pkgSrc = '') => {
     return [cleanedBump, cleanedSrc, error];
 }
 
-export default validateArgs;
+module.exports = {
+    validateArgs
+};

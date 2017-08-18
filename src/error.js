@@ -3,4 +3,6 @@ const exitWithError = (message) => {
     process.exit(1);
 }
 
-export default exitWithError;
+module.exports = {
+    exitWithError
+};
